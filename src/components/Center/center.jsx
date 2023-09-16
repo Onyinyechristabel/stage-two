@@ -39,25 +39,33 @@ const Center = function () {
         <p className="center__awards">Awards 9 nominations</p>
         <img className="center__expand" src="/images/Expand Arrow.png" alt="" />
       </div>
-      <div>
-        <img src="/images/Bookmark.png" alt="" />
-        <img src="/images/Star.png" alt="" />
-        <p>8.5 | 350k</p>
-      </div>
-      <button className="center__ticketbtn">
-        {" "}
-        <img className="center__ticket" src="/images/Two Tickets" alt="" />
-        See Showtimes
-      </button>
-      <button className="center__listbtn">
-        <img className="center__list" src="/images/List" alt="" /> More watch
-        options
-      </button>
-      <img src="/images/Suggestions.png" alt="" />
-      <div>
-        <img src="/images/Bookmark.png" alt="" />
-        <p>The Best Movies and Shows in September</p>
-      </div>
+      <main className="center__main">
+        <div className="center__position">
+          <img className="center__iconic" src="/images/Bookmark.png" alt="" />
+          <img className="center__iconic" src="/images/Star.png" alt="" />
+          <p className="center__price">
+            8.5 |<span className="center__350"> 350k</span>
+          </p>
+        </div>
+        <button className="center__ticketbtn">
+          {" "}
+          <img className="center__ticket" src="/images/Two Tickets" alt="" />
+          See Showtimes
+        </button>
+        <button className="center__listbtn">
+          <img className="center__list" src="/images/List" alt="" /> More watch
+          options
+        </button>
+        <img
+          className="center__suggestions"
+          src="/images/Suggestions.png"
+          alt=""
+        />
+        <div>
+          <img className="center__bookimg" src="/images/Bookmark.png" alt="" />
+          <p className="center__book">The Best Movies and Shows in September</p>
+        </div>
+      </main>
     </main>
   );
 };
