@@ -1,0 +1,86 @@
+.hero__main {
+  margin-top: 15.8rem;
+  margin-left: 9.8rem;
+}
+.Poster {
+  position: absolute;
+  z-index: -1;
+  top: 0rem;
+  width: 144rem;
+  left: 0rem;
+}
+.hero__header {
+  width: 40.4rem;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.6rem; /* 116.667% */
+}
+.hero__imob {
+  display: flex;
+  gap: 1rem;
+}
+.hero__imobimg {
+  width: 3.5rem;
+  height: 1.7rem;
+}
+.hero__imobp {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem; /* 100% */
+}
+.hero__tomato {
+  display: flex;
+  gap: 1rem;
+}
+.hero__tomatoimg {
+  width: 1.6rem;
+  height: 1.7rem;
+}
+.hero__tomatop {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem; /* 100% */
+}
+.hero__section {
+  display: flex;
+  gap: 6rem;
+  margin-top: 1.6rem;
+  width: 21rem;
+}
+.hero__content {
+  width: 30.2rem;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem; /* 128.571% */
+  margin-top: 1.6rem;
+}
+.hero__btn {
+  margin-top: 1.6rem;
+  color: var(--white, #fff);
+  font-family: "DM Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  background-color: #be123c;
+  border: none;
+  width: 16.9rem;
+}
+.hero__btnimg {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 2rem;
+}

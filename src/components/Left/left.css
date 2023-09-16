@@ -1,0 +1,88 @@
+.left {
+  width: 22.6rem;
+  padding-left: 4.2rem;
+}
+.left__moviebox {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 5.2rem;
+}
+.left__movie {
+  color: #333;
+  font-family: "DM Sans";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem; /* 100% */
+  margin-top: 1.5rem;
+}
+.left__box {
+  width: 5rem;
+}
+.left__icons {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+}
+
+.left__icon:nth-of-type(2) {
+  margin-top: 10.5rem;
+}
+.left__icon:nth-of-type(3) {
+  margin-top: 7.5rem;
+}
+.left__icon:nth-of-type(4) {
+  margin-top: 7.4rem;
+}
+.left__icon:nth-of-type(5) {
+  margin-top: 7.5rem;
+}
+.left__icon:nth-of-type(6) {
+  margin-top: 6rem;
+}
+.left__icon {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 6rem;
+}
+.left__p {
+  color: #666;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.left__people {
+  color: rgba(51, 51, 51, 0.8);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 13.7rem;
+  margin-top: 12rem;
+}
+.left__player {
+  color: #666;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 13.9rem;
+  margin-top: 0.9rem;
+}
+.left__btn {
+  color: #be123c;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1.9rem;
+  width: 11.2rem;
+  border-radius: 2rem;
+  border: none;
+}

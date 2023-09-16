@@ -1,0 +1,106 @@
+.Lists {
+  margin-left: 9.8rem;
+
+  width: 144rem;
+}
+
+.Cards {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  gap: 8rem;
+  width: 124rem;
+}
+.List__main {
+  width: 25rem;
+}
+.List__heading {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22.7rem;
+}
+.List__view {
+  color: #be123c;
+  font-family: " DM Sans";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin-right: -89rem; /* 133.333% */
+}
+.List__header {
+  color: #000;
+  font-family: "DM Sans";
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.List__img {
+  width: 25rem;
+  height: 37rem;
+}
+.List__date {
+  color: var(--gray-400, #9ca3af);
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.2rem;
+}
+.List__tittle {
+  color: var(--gray-900, #111827);
+  font-family: "DM Sans";
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.2rem;
+}
+.List__rating {
+  margin-top: 1.2rem;
+  display: flex;
+}
+.List__imob {
+  display: flex;
+  gap: 1rem;
+}
+.List__imobimg {
+  width: 3.5rem;
+  height: 1.7rem;
+}
+.List__tomato {
+  display: flex;
+  gap: 1rem;
+}
+.List__tomatoimg {
+  width: 1.6rem;
+  height: 1.7rem;
+}
+.List__score {
+  color: var(--gray-900, #111827);
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem; /* 100% */
+  margin-top: 0.4rem;
+}
+.List__percent {
+  color: var(--gray-900, #111827);
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2rem; /* 100% */
+  margin-top: 0.4rem;
+}
+.List__feature {
+  color: var(--gray-400, #9ca3af);
+  font-family: "DM Sans";
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 1.2rem;
+}

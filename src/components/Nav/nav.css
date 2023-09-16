@@ -1,0 +1,88 @@
+nav {
+  display: flex;
+  justify-content: center;
+  width: 144rem;
+  gap: 21.2rem;
+}
+.nav__tvbox {
+  display: flex;
+  gap: 2.4rem;
+  width: 18.6rem;
+}
+.nav__tv {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 1.5rem;
+}
+.nav__box {
+  color: #ffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 2.8rem;
+  line-height: 2.4rem; /* 100% */
+  width: 11.2rem;
+}
+.search {
+  display: flex;
+  width: 52.5rem;
+  padding: 0.6rem 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.1rem solid white;
+  width: 52.5rem;
+  padding: 1rem 0.6rem;
+  border-radius: 1rem;
+  margin-top: 2.2rem;
+  width: 42.2rem;
+}
+::placeholder {
+  color: #ffff;
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  background-color: inherit;
+  border: none;
+}
+.input__text {
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  background-color: inherit;
+  border: none;
+}
+.nav__search {
+  margin-left: auto;
+  width: 1.6rem;
+  height: 1.6rem;
+  flex-shrink: 0;
+}
+.register {
+  display: flex;
+  gap: 2.7rem;
+  margin-top: 2.8rem;
+  width: 11.4rem;
+}
+.nav__entry {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem; /* 150% */
+}
+.nav__hamburger {
+  width: 2.4rem;
+  height: 2.4rem;
+  flex-shrink: 0;
+  background: #be123c;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  padding: 0.6rem;
+}
