@@ -1,4 +1,4 @@
-import Nav from "./components/nav/index.jsx";
+import Nav from "./components/Nav/index.jsx";
 import Hero from "./components/Hero/hero.jsx";
 import List from "./components/List/list.jsx";
 import Footer from "./components/Footer/footer.jsx";

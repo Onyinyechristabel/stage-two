@@ -44,13 +44,14 @@ const Center = function () {
         <img src="/images/Star.png" alt="" />
         <p>8.5 | 350k</p>
       </div>
-      <button>
+      <button className="center__ticketbtn">
         {" "}
-        <img src="/images/Two Tickets" alt="" />
+        <img className="center__ticket" src="/images/Two Tickets" alt="" />
         See Showtimes
       </button>
-      <button>
-        <img src="/images/List" alt="" /> More watch options
+      <button className="center__listbtn">
+        <img className="center__list" src="/images/List" alt="" /> More watch
+        options
       </button>
       <img src="/images/Suggestions.png" alt="" />
       <div>
